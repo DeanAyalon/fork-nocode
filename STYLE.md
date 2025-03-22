@@ -24,6 +24,14 @@ du -h main.no
 
 > The only valid code is no code.
 
+### Fixing Invalid Files
+
+If, when running the `du` command, a file does not pass the linting - it can be fixed with the following command:
+
+```
+echo "" > main.no
+```
+
 ## Code Reviews
 
 The no code community has adopted the following conventions when reviewing code changes:
